@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+  <info>
+    <name>Spells</name>
+    <description>Spells from Unearthed Arcana.</description>
+    <update version="0.3.3">
+      <file name="mystic_spells.xml" url="https://raw.githubusercontent.com/aurorabuilder/elements/master/core/players-handbook/spells.xml" />
+    </update>
+  </info>
+
+  <element name="Death tentacles" type="Spell" source="Unearthed Arcana" id="ID_UA_SPELL_DEATH_TENTACLES">
+    <supports>Sorcerer</supports>
+    <description>
+      <p>When u cast this spell, above you apper small portal from which 3 tentacles arise. Each tentacle automaticly atack, telepathicly chosen target dealing d8 bludgeoning damage. You must maintain concentraction on the spell otherwise portall disapear. Using bonus action you can sacrafice one or more tentacles to either heal ally or your self(range touch) for d8+1 health Or you can create spear from each sacraficed tentacle and magically hurl it(range 90ft) dealing 2d6+1 force damage for each..</p>
+      <p class="indent">By upcasting this. For each upcasted level one more tentacle will arise from the portal.</p>
+    </description>
+    <setters>
+      <set name="keywords"></set>
+      <set name="level">0</set>
+      <set name="school">Evocation</set>
+      <set name="time">1 action</set>
+      <set name="duration">Instantaneous</set>
+      <set name="range">30 feet</set>
+      <set name="hasVerbalComponent">false</set>
+      <set name="hasSomaticComponent">false</set>
+      <set name="hasMaterialComponent">false</set>
+      <set name="materialComponent" />
+      <set name="isConcentration">True</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element>
+  
+  <element name="Necrotic Sacrafice" type="Spell" source="Unearthed Arcana" id="ID_UA_SPELL_NECROTIC_SACRAFICE">
+    <supports>Sorcerer</supports>
+    <description>
+      <p>You create 4 bolts of darknes, each of them deals d4 necrotic dmg. For each of them u make separate spell atack roll. You can sacrafice d4+1 of your hitpoints to add d2+1 more bolts.</p>
+      <p class="indent">at higher levels u create more bolts. At 5th 7 bolts, at 11th 9 bolts, at 17th lvl 11 bolts.</p>
+    </description>
+    <setters>
+      <set name="keywords"></set>
+      <set name="level">0</set>
+      <set name="school">Evocation</set>
+      <set name="time">1 action</set>
+      <set name="duration">Instantaneous</set>
+      <set name="range">60 feet</set>
+      <set name="hasVerbalComponent">false</set>
+      <set name="hasSomaticComponent">false</set>
+      <set name="hasMaterialComponent">false</set>
+      <set name="materialComponent" />
+      <set name="isConcentration">false</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element>
+  
+  <element name="Siphoning disc" type="Spell" source="Unearthed Arcana" id="ID_UA_SPELL_SIPHONING_DISC">
+    <supports>Sorcerer</supports>
+    <description>
+      <p>You hurl a small black disc, black smoke follows it. when it hits the target, it deals d4 necrotic damage, for the next minute target receive d4 damage each turn, and caster receive hitpoints equal to damage dealt.</p>
+      <p class="indent">This spell's damage increases by d6 when you reach 5th level (2d6), 11th level (3d6), and 17th level (4d6).</p>
+    </description>
+    <setters>
+      <set name="keywords"></set>
+      <set name="level">0</set>
+      <set name="school">Evocation</set>
+      <set name="time">1 action</set>
+      <set name="duration">Instantaneous</set>
+      <set name="range">90 feet</set>
+      <set name="hasVerbalComponent">false</set>
+      <set name="hasSomaticComponent">false</set>
+      <set name="hasMaterialComponent">false</set>
+      <set name="materialComponent" />
+      <set name="isConcentration">false</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element>
+  
+   <element name="Silvery Barbs" type="Spell" source="Unearthed Arcana" id="ID_UA_SPELL_SILVERY_BARBS">
+    <supports>Sorcerer</supports>
+    <description>
+      <p>You magically distract the triggering creature and turn its momentary uncertainty into encouragement for another creature. The triggering creature must reroll the d20 and use the lower roll. You can then choose a different creature you can see within range (you can choose yourself). The chosen creature has advantage on the next attack roll, ability check, or saving throw it makes within 1 minute. A creature can be empowered by only one use of this spell at a time.</p>
+
+
+    </description>
+    <setters>
+      <set name="keywords"></set>
+      <set name="level">1</set>
+      <set name="school">Evocation</set>
+      <set name="time">1 reaction</set>
+      <set name="duration">Instantaneous</set>
+      <set name="range">90 feet</set>
+      <set name="hasVerbalComponent">false</set>
+      <set name="hasSomaticComponent">false</set>
+      <set name="hasMaterialComponent">false</set>
+      <set name="materialComponent" />
+      <set name="isConcentration">false</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element>
+  
+  
+  
+  
+</elements>
