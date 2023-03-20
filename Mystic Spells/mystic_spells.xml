@@ -109,7 +109,7 @@
       <set name="school">Transmutation</set>
       <set name="time">1 bonus action</set>
       <set name="duration">5 minutes</set>
-      <set name="range">self</set>
+      <set name="range">Self</set>
       <set name="hasVerbalComponent">false</set>
       <set name="hasSomaticComponent">false</set>
       <set name="hasMaterialComponent">false</set>
